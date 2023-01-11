@@ -1,0 +1,16 @@
+@media screen and (max-width: 1024px) {
+  .header__wrap_nike {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .burger {
+    display: block;
+  }
+  .nav2 {
+    display: none;
+  }
+  .main__title_title {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=mabile.css.map */
