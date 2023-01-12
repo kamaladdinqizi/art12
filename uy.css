@@ -6,7 +6,6 @@
 header {
   width: 100%;
   height: 81px;
-  border: 1px solid fuchsia;
 }
 
 .header__wrap {
@@ -198,15 +197,18 @@ header {
   justify-content: space-around;
 }
 
+.main__one_img {
+  border-radius: 20px;
+}
+
 .main__one_card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
   width: 100%;
   height: 100%;
   width: 352px;
   height: 752px;
-  border: 1px solid fuchsia;
 }
 
 .main__one_card-title {
@@ -229,6 +231,11 @@ header {
   font-size: 64px;
   line-height: 64px;
   color: #23262f;
+}
+
+.main__one_card2 {
+  display: flex;
+  justify-content: space-between;
 }
 
 .main__one_card-price {
@@ -263,6 +270,23 @@ header {
   color: #23262F;
 }
 
+.main__one_card-frame1030 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 352px;
+  height: 296px;
+  /* Neutrals/8 */
+  background: #FCFCFD;
+  /* Neutrals/6 */
+  border: 3px solid #E6E8EC;
+  /* depth/4 */
+  box-shadow: 0px 64px 64px -48px rgba(31, 47, 70, 0.12);
+  border-radius: 24px;
+}
+
 .main__one_card-frame1030-Bid {
   width: 198px;
   height: 24px;
@@ -286,4 +310,91 @@ header {
   text-align: center;
   letter-spacing: -0.02em;
   color: #141416;
+}
+
+.main__one_card-frame1030-36 {
+  width: 198px;
+  height: 32px;
+  /* Body 1 (Bold) */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #777E91;
+}
+
+.main__one_card-frame1030-Auction {
+  width: 231px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #23262F;
+}
+
+.main__one_card-frame1026-Hrs-num {
+  width: 64px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #141416;
+}
+
+.main__one_card-frame1026-Hrs-str {
+  width: 64px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #777E91;
+}
+
+.mane__one-card-btn1 {
+  width: 352px;
+  height: 48px;
+  background: #3772FF;
+  border-radius: 90px;
+  border: 3px solid #E6E8EC;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #FCFCFD;
+}
+
+.mane__one-card-btn2 {
+  width: 352px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 90px;
+  border: 3px solid #E6E8EC;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #23262F;
+}
+
+.mane__one-card-btn3 {
+  display: flex;
+  justify-content: center;
+}
+
+.mane__one-card-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #E6E8EC;
+  border-radius: 40px;
 }/*# sourceMappingURL=uy.css.map */
